@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<struct>
+		<and abstract="true" hidden="true" mandatory="true" name="shiftfork.dsl">
+			<property data-type="class java.lang.string" key="virtual_root" value="VIRTUAL_ROOT"/>
+			<feature mandatory="true" name="O-Ring">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="O-Ring"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+			</feature>
+			<and abstract="true" mandatory="true" name="Fork">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Fork"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				<feature mandatory="true" name="Fork4">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="30.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Fork"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Fork 4"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+				<feature mandatory="true" name="Fork5">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="50.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Fork"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Fork 5"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+				<feature mandatory="true" name="Fork3">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="30.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Fork"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Fork 3"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+			</and>
+			<alt abstract="true" mandatory="true" name="Pipe">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Abstract Pipe"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				<feature name="Pipe8">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="30.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Pipe"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Pipe 8"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+				<feature name="Pipe2">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="20.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Pipe"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Pipe 2"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+				<feature name="Pipe3">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="30.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Pipe"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Pipe 3"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+			</alt>
+			<alt abstract="true" mandatory="true" name="Lock">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Abstract Lock"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				<feature name="Lock1">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="30.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Lock"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Lock 1"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+				<feature name="Lock2">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="20.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Lock"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Lock 2"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+				<feature name="Lock3">
+					<property data-type="int" key="children_products_list_size" value="0"/>
+					<property data-type="string" key="attribute_id_length" value="length"/>
+					<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+					<property data-type="string" key="attribute_unit_length" value="mm"/>
+					<property data-type="string" key="attribute_value_length" value="30.0"/>
+					<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+					<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+					<property data-type="string" key="attribute_type_length" value="Number"/>
+					<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+					<property data-type="string" key="implemented_products_list_nr_0" value="Lock"/>
+					<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+					<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+					<property data-type="int" key="implemented_products_list_size" value="1"/>
+					<property data-type="string" key="attribute_name" value="Lock 3"/>
+					<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+				</feature>
+			</alt>
+			<feature mandatory="true" name="Jack1">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Jack 1"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+			</feature>
+			<feature mandatory="true" name="Screw">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Screw"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+			</feature>
+			<feature mandatory="true" name="Ring1">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Ring 1"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+			</feature>
+			<feature mandatory="true" name="Barrel1">
+				<property data-type="int" key="children_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_id_length" value="length"/>
+				<property data-type="string" key="attribute_default_value_partialproduct" value="false"/>
+				<property data-type="string" key="attribute_unit_length" value="mm"/>
+				<property data-type="string" key="attribute_value_length" value="50.0"/>
+				<property data-type="string" key="attribute_default_value_length" value="1.0"/>
+				<property data-type="string" key="attribute_description_partialproduct" value="Specifies if the given product is a partial one"/>
+				<property data-type="string" key="attribute_type_length" value="Number"/>
+				<property data-type="string" key="attribute_description_length" value="Length of an object in mm"/>
+				<property data-type="string" key="attribute_id_partialproduct" value="partialProduct"/>
+				<property data-type="string" key="attribute_type_partialproduct" value="String"/>
+				<property data-type="int" key="implemented_products_list_size" value="0"/>
+				<property data-type="string" key="attribute_name" value="Barrel 1"/>
+				<property data-type="string" key="attribute_value_partialproduct" value="true"/>
+			</feature>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<var>O-Ring</var>
+				<var>Ring1</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>O-Ring</var>
+				<var>Jack1</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Lock</var>
+				<var>Pipe</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Jack1</var>
+				<var>Pipe</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Screw</var>
+				<var>Ring1</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Screw</var>
+				<var>Jack1</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Ring1</var>
+				<var>Pipe</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Barrel1</var>
+				<var>Pipe</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Fork4</var>
+				<var>Fork5</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Fork3</var>
+				<var>Fork5</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Lock1</var>
+				<disj>
+					<var>Pipe2</var>
+					<var>Pipe3</var>
+				</disj>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Lock2</var>
+				<var>Pipe3</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Lock3</var>
+				<var>Pipe8</var>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>

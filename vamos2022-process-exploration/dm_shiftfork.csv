@@ -1,0 +1,73 @@
+ID;Question;Type;Range;Cardinality;Constraint/Rule;Visible/relevant if
+O-Ring;Will the Product O-Ring will be used?;Boolean;true | false;;;false
+Fork;Will the Product Fork will be used?;Boolean;true | false;;;false
+Lock1;Will the Product Lock1 will be used?;Boolean;true | false;;;false
+Lock2;Will the Product Lock2 will be used?;Boolean;true | false;;;false
+Lock3;Will the Product Lock3 will be used?;Boolean;true | false;;;false
+Pipe;Will the Product Pipe will be used?;Boolean;true | false;;;false
+Lock;Will the Product Lock will be used?;Boolean;true | false;;;false
+Pipe8;Will the Product Pipe8 will be used?;Boolean;true | false;;;false
+Jack1;Will the Product Jack1 will be used?;Boolean;true | false;;;false
+Screw;Will the Product Screw will be used?;Boolean;true | false;;;false
+Ring1;Will the Product Ring1 will be used?;Boolean;true | false;;;false
+Barrel1;Will the Product Barrel1 will be used?;Boolean;true | false;;;false
+Fork4;Will the Product Fork4 will be used?;Boolean;true | false;;;false
+Pipe2;Will the Product Pipe2 will be used?;Boolean;true | false;;;false
+Fork5;Will the Product Fork5 will be used?;Boolean;true | false;;;false
+Pipe3;Will the Product Pipe3 will be used?;Boolean;true | false;;;false
+Fork3;Will the Product Fork3 will be used?;Boolean;true | false;;;false
+InsertPipe2;Do you want to install InsertPipe2?;Boolean;true | false;;"if (getValue(InsertPipe2) == true) {
+InsertPipe = true;
+}
+";getValue(Pipe2) == true
+WeldFork4;Do you want to install WeldFork4?;Boolean;true | false;;;((((getValue(Fork4) == true && getValue(Pipe) == true) && getValue(Fork5) == true) && getValue(InsertFork4) == true) && getValue(WeldFork5) == true)
+InsertLock;Do you want to install InsertLock?;Boolean;true | false;;;false
+InsertPipe;Do you want to install InsertPipe?;Boolean;true | false;;;false
+WeldFork5;Do you want to install WeldFork5?;Boolean;true | false;;;(((getValue(Fork5) == true && getValue(Pipe) == true) && getValue(InsertFork5) == true) && getValue(InsertPipe) == true)
+InsertPipe3;Do you want to install InsertPipe3?;Boolean;true | false;;"if (getValue(InsertPipe3) == true) {
+InsertPipe = true;
+}
+";getValue(Pipe3) == true
+WeldFork3;Do you want to install WeldFork3?;Boolean;true | false;;;((((getValue(Fork3) == true && getValue(Pipe) == true) && getValue(Fork5) == true) && getValue(InsertFork3) == true) && getValue(WeldFork5) == true)
+InsertJack1;Do you want to install InsertJack1?;Boolean;true | false;;;getValue(Jack1) == true
+InsertPipe8;Do you want to install InsertPipe8?;Boolean;true | false;;"if (getValue(InsertPipe8) == true) {
+InsertPipe = true;
+}
+";getValue(Pipe8) == true
+PressScrew;Do you want to install PressScrew?;Boolean;true | false;;;((((((getValue(Screw) == true && getValue(Pipe) == true) && getValue(Jack1) == true) && getValue(Ring1) == true) && getValue(InsertScrew) == true) && getValue(PressJack1) == true) && getValue(PressRing1) == true)
+WeldLock1;Do you want to install WeldLock1?;Boolean;true | false;;"if (getValue(WeldLock1) == true) {
+WeldLock = true;
+}
+";((((((getValue(Lock1) == true && getValue(Pipe) == true) && getValue(Fork4) == true) && getValue(Fork3) == true) && getValue(InsertLock1) == true) && getValue(WeldFork3) == true) && getValue(WeldFork4) == true)
+WeldLock2;Do you want to install WeldLock2?;Boolean;true | false;;"if (getValue(WeldLock2) == true) {
+WeldLock = true;
+}
+";((((((getValue(Lock2) == true && getValue(Pipe) == true) && getValue(Fork4) == true) && getValue(Fork3) == true) && getValue(InsertLock2) == true) && getValue(WeldFork3) == true) && getValue(WeldFork4) == true)
+PressJack1;Do you want to install PressJack1?;Boolean;true | false;;;(((getValue(Jack1) == true && getValue(Pipe) == true) && getValue(InsertJack1) == true) && getValue(InsertPipe) == true)
+WeldLock3;Do you want to install WeldLock3?;Boolean;true | false;;"if (getValue(WeldLock3) == true) {
+WeldLock = true;
+}
+";((((((getValue(Lock3) == true && getValue(Pipe) == true) && getValue(Fork4) == true) && getValue(Fork3) == true) && getValue(InsertLock3) == true) && getValue(WeldFork3) == true) && getValue(WeldFork4) == true)
+InsertScrew;Do you want to install InsertScrew?;Boolean;true | false;;;getValue(Screw) == true
+InsertRing1;Do you want to install InsertRing1?;Boolean;true | false;;;getValue(Ring1) == true
+PressORing;Do you want to install PressORing?;Boolean;true | false;;;((((((getValue(O-Ring) == true && getValue(Pipe) == true) && getValue(Jack1) == true) && getValue(Ring1) == true) && getValue(InsertORing) == true) && getValue(PressJack1) == true) && getValue(PressRing1) == true)
+InsertBarrel1;Do you want to install InsertBarrel1?;Boolean;true | false;;;getValue(Barrel1) == true
+InsertORing;Do you want to install InsertORing?;Boolean;true | false;;;getValue(O-Ring) == true
+InsertFork4;Do you want to install InsertFork4?;Boolean;true | false;;;getValue(Fork4) == true
+InsertLock1;Do you want to install InsertLock1?;Boolean;true | false;;"if (getValue(InsertLock1) == true) {
+InsertLock = true;
+}
+";getValue(Lock1) == true
+InsertFork3;Do you want to install InsertFork3?;Boolean;true | false;;;(getValue(Fork3) == true && getValue(Pipe) == true)
+InsertLock3;Do you want to install InsertLock3?;Boolean;true | false;;"if (getValue(InsertLock3) == true) {
+InsertLock = true;
+}
+";getValue(Lock3) == true
+InsertFork5;Do you want to install InsertFork5?;Boolean;true | false;;;getValue(Fork5) == true
+InsertLock2;Do you want to install InsertLock2?;Boolean;true | false;;"if (getValue(InsertLock2) == true) {
+InsertLock = true;
+}
+";getValue(Lock2) == true
+PressRing1;Do you want to install PressRing1?;Boolean;true | false;;;(((getValue(Ring1) == true && getValue(Pipe) == true) && getValue(InsertRing1) == true) && getValue(InsertPipe) == true)
+WeldLock;Do you want to install WeldLock?;Boolean;true | false;;;false
+PressBarrel1;Do you want to install PressBarrel1?;Boolean;true | false;;;(((getValue(Barrel1) == true && getValue(Pipe) == true) && getValue(InsertBarrel1) == true) && getValue(InsertPipe) == true)
