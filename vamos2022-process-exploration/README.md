@@ -4,4 +4,11 @@
 
 ## Abstract
 
-Cyber-Physical Production Systems (CPPSs) manufacture highly-customizable products from a product family following a sequence of production steps. For a CPPS, basic planners design feasible production process sequences by arranging atomic production steps based on implicit domainknowledge. However, the manual design of production sequences is inefficient and hard to reproduce due to the largeconfiguration space. In this paper, we introduce theIterativeProcess Sequence Exploration (IPSE) approachthat (i) elicitsdomain knowledge in an industrial variability artifact, usingthe Product-Process-Resource Domain-Specific Language(PPR-DSL); (ii) reduces configuration space size regardingstructural product variability and behavioral process variability; and (iii) facilitates efficiently exploring the configurationspace in a process decision model. For production processsequence design, IPSE is a first approach to combine structural and behavioral variability models. We investigated thefeasibility of the IPSE in a study on a typical manufacturingwork line in automotive production. We compare the IPSEto a traditional process sequence planning approach. Ourstudy indicates IPSE to be more efficient than the traditionalmanual approach.
+Cyber-Physical Production Systems (CPPSs) manufacture highly-customizable products from a product family following a sequence of production steps.
+For a CPPS, basic planners design feasible production process sequences by arranging atomic production steps based on implicit domain knowledge.
+However, the manual design of production sequences is inefficient and hard to reproduce due to the large configuration space.
+In this paper, we introduce the Iterative Process Sequence Exploration (IPSE) approach that (i) elicits domain knowledge in an industrial variability artifact, using the Product-Process-Resource Domain-Specific Language (PPR-DSL); (ii) reduces configuration space size regarding structural product variability and behavioral process variability; and (iii) facilitates efficiently exploring the configuration space in a process decision model.
+For production process sequence design, IPSE is a first approach to combine structural and behavioral variability models.
+We investigated the feasibility of the IPSE in a study on a typical manufacturing work line in automotive production.
+We compare the IPSE to a traditional process sequence planning approach.
+Our study indicates IPSE to be more efficient than the traditional manual approach.
